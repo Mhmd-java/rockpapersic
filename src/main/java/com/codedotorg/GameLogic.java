@@ -60,10 +60,10 @@ public class GameLogic {
      * 
      * @return a string indicating that the user has won
      */
-    public String getUserWinnerResult() {
-        gameOver = true;
-        return "Result: User wins";
-    }
+    public void getUserWinnerResult() {
+    gameOver = true;
+    System.out.println("Result: User wins");
+}
 
     /**
      * Sets the game over flag to true and returns a string
@@ -71,10 +71,10 @@ public class GameLogic {
      * 
      * @return A string indicating that the player has lost.
      */
-    public String getComputerWinnerResult() {
-        gameOver = true;
-        return "Result: Computer wins";
-    }
+    public void getComputerWinnerResult() {
+    gameOver = true;
+    System.out.println("Result: Computer wins");
+}
     
 
     /**
